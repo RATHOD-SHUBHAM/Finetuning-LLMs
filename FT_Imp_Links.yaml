@@ -1,0 +1,48 @@
+Causal language modeling: https://huggingface.co/docs/transformers/en/tasks/language_modeling
+
+Understanding AutoTokenizer: https://medium.com/@stealthsecurity/understanding-autotokenizer-in-huggingface-transformers-680a4982c9da
+
+Unsloth: https://docs.unsloth.ai/
+
+Unsloth CLI: https://github.com/unslothai/unsloth/blob/main/unsloth-cli.py#L121
+
+Examples of using peft with trl to finetune 8-bit models with Low Rank Adaption (LoRA): https://huggingface.co/docs/trl/main/en/lora_tuning_peft
+
+# Dataset
+Datasets: https://huggingface.co/docs/datasets/en/quickstart
+
+
+# Inference Pipeline:
+Peft: https://github.com/huggingface/peft
+
+trl: https://huggingface.co/docs/trl/installation
+
+Deepseek: https://huggingface.co/deepseek-ai/deepseek-llm-7b-base Deepseek-R1: https://huggingface.co/deepseek-ai/DeepSeek-R1
+
+bitsandbytes: https://huggingface.co/docs/bitsandbytes/index
+
+tiktoken: https://www.datacamp.com/tutorial/tiktoken-library-python
+
+
+# Load the base model
+Loading models: https://huggingface.co/docs/transformers/models
+
+from_pretrained: https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/model#transformers.PreTrainedModel.from_pretrained
+
+AutoTokenizer: https://huggingface.co/docs/transformers/en/model_doc/auto#transformers.AutoTokenizer
+
+# Fine-tuning
+
+Fine-tuning: https://huggingface.co/docs/transformers/en/training
+
+Trainer: https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/trainer#trainer
+
+TrainingArguments: https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/trainer#transformers.TrainingArguments
+
+.generate(): https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/text_generation#transformers.GenerationMixin.generate
+**Kwargs: https://huggingface.co/docs/transformers/v4.51.3/en/main_classes/text_generation#transformers.GenerationConfig
+
+SFTTrainer():
+https://huggingface.co/docs/trl/v0.17.0/en/sft_trainer#trl.SFTTrainer
+SFTConfigs():
+https://huggingface.co/docs/trl/v0.17.0/en/sft_trainer#trl.SFTConfig
